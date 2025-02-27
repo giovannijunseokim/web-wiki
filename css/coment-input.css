@@ -1,0 +1,54 @@
+.comment-input {
+    width: 80%; /* 입력창 너비 80% */
+    padding: 10px; /* 패딩 추가 */
+    margin-bottom: 10px; /* 아래쪽 여백 추가 */
+}
+
+.submit-button, .reset-button {
+    width: 48%; /* 버튼 너비 48% */
+    padding: 10px; /* 패딩 추가 */
+    margin-right: 4%; /* 오른쪽 여백 추가 */
+}
+
+.reset-button {
+    margin-right: 0; /* 오른쪽 여백 제거 */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.comment-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.comment-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.comment-author {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.comment-author img {
+    width: 40px; /* 프로필 이미지 크기 */
+    height: 40px;
+    border-radius: 50%; /* 원형으로 만들기 */
+    margin-right: 10px; /* 이미지와 텍스트 간격 */
+}
+
+.comment-content {
+    font-size: 16px;
+    color: #333;
+}
